@@ -1,0 +1,13 @@
+8 3
+@
+0
+@
+CRA
+ADD 8
+ROR_F_ACC
+CRA
+SFZ
+ITA
+STA 9
+HALT
+@
