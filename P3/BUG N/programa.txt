@@ -1,0 +1,17 @@
+B 5
+C -4
+@
+0
+@
+RIZ 17
+SOD B 
+LDA B
+LDQ C
+ABS C
+SOD C
+LDA C
+ADDIMM
+LDA C
+RIZ 18
+HALT
+@

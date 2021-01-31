@@ -1,0 +1,19 @@
+D 5
+E -4
+@
+0
+@
+RIZ F
+SOD D 
+LDA D
+LDQ E
+ABS E
+SOD E
+LDA E
+ADDIMM
+LDA E
+RIZ 10
+LDQ E
+MUL_SM D
+HALT
+@

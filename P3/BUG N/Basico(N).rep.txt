@@ -1,0 +1,7 @@
+HALT false 0 q0
+LDA true 2 q1
+LDQ true 1 q2
+ABS true 3 q3
+SOD true 2 q4
+RIZ true 4 q5
+ADDIMM false 5 q6

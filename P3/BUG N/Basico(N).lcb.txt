@@ -1,0 +1,29 @@
+$
+PC+1->PC:t1 + t4·q4·Qn
+PC->MAR:t0
+GPR(AD)->MAR:t2
+GPR->M:t5·q3 + t6·q5·F
+GPR(OP)->OPR:t2
+M->GPR:t1 + t3·q1 + t3·q3
+ACC->GPR:t3·q6·N'
+GPR+1->GPR:t6·q5·F'
+QR->GPR:t4·q5
+GPR'->GPR:t5·q5·Za
+Co2 GPR:t4·q3·Bs 
+0->F:t6·q5·F
+F'->F:t5·q5·Za·F'
+0->QR:t3·q5
+0->ACC:t3·q1 + t3·q6·N
+M->QR:t3·q2 + t3·q4
+GPR+ACC->ACC:t4·q1 + t6·q6·N
+GPR->QR:t3·q6·N'
+ROL FAQ:t5·q6
+ROR FA:t5·q5·Za'
+0->N:t0
+1->N:t6·q6·N'
+$
+SR+1->SR:t0 + t1 + t2 + t3·q1  + t3·q3 + t4·q3·Bs + t3·q4 + t3·q5 + t4·q5 + t5·q5 + t3·q6 + t4·q6 + t5·q6·Zsc
+LOAD SR:t4·q1-0 + t3·q2-0 + t4·q3·Bs'-0 + t5·q3-0  + t4·q4-0 + t6·q5·F-0 + t6·q5·F'-5 + t5·q6·Zsc'-4 + t6·q6·N'-3 + t6·q6·N-0
+SC-1->SC:t4·q6
+LOAD SC:t3·q6·N'-5 + t3·q6·N-11
+$
