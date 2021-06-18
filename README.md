@@ -1,4 +1,6 @@
-![Ac](https://cdn.educba.com/academy/wp-content/uploads/2018/12/Computer-Architecture.jpg)
+<div align="center">
+    <img width="100%" src="https://cdn.educba.com/academy/wp-content/uploads/2018/12/Computer-Architecture.jpg" alt="AC">
+</div>
 
 # Instructions:
 
